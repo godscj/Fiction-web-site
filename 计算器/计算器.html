@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<script src="calculator.js" type="text/javascript" charset="utf-8"></script>
+<html lang="en-us" >
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width">
+    	<title>calculator</title>
+    	<link href="calculator.css" type="text/css" rel="stylesheet">
+	</head>
+	<div >
+    	<span id="result" ></span>
+	</div> 
+		<table border="1%"  width="100%" style=”margin: auto；” >
+			<tbody align="center">
+				<tr>
+					<td onclick="add('+')">+</td>
+					<td onclick="add('-')">-</td>
+					<td onclick="add('*')">×</td>
+				</tr>
+				<tr>
+					<td  onclick="AC()">AC</td>
+					<td  onclick="backspace()">back</td>
+					<td  onclick="add('/')">÷</td>
+				</tr>
+				<tr>
+					<td  onclick="left()">(</td>
+					<td  onclick="right()">)</td>
+					<td  onclick="ppow()">^</td>
+				</tr>
+      			<tr>
+					<td onclick="add(1)">1</td>
+					<td onclick="add(2)">2</td>
+					<td onclick="add(3)">3</td>
+				</tr>
+				<tr>
+					<td onclick="add(4)">4</td>
+					<td onclick="add(5)">5</td>
+					<td onclick="add(6)">6</td>
+				</tr>
+      			<tr>
+					<td onclick="add(7)">7</td>
+					<td onclick="add(8)">8</td>
+					<td onclick="add(9)">9</td>
+				</tr>
+				<tr>
+					<td onclick="add(0)">0</td>
+					<td onclick="add('.')">.</td>
+					<td onclick="out()">=</td>
+				</tr>
+			</tbody>
+		</table>
+</html>
